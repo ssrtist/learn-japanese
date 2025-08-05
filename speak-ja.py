@@ -20,6 +20,7 @@ import sys
 
 
 # --- Global Constants and Configuration ---
+GENERATE_SFX = False  # Whether to generate sound files for words
 DEFAULT_LANGUAGE = "ja" # Default language for speech recognition and TTS
 CONFIG_FILE_PATH = "config_ja.json"
 SOUND_TYPE_FILE = "assets/sounds/mouse_click.wav"
@@ -618,12 +619,13 @@ class TalkingGame:
         # load sfx defined in self.config.json from local assets
         for game_mode in self.config.keys():
             print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Loading SFX for \"{game_mode}\"...")
-            for word in self.config.get(game_mode)["items"]:
+            for wordobj in self.config.get(game_mode)["items"]:
+                word = wordobj["word"]
                 filename = f"assets/sounds/word_{word}.mp3"
                 if os.path.exists(filename):
                     # load sfx
                     self.sounds[word] = load_sound(filename)
-                else:
+                elif GENERATE_SFX and word not in self.sounds:
                     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] file, {filename} doesn't exists, generating...")
                     tts = gTTS(text=word, lang=DEFAULT_LANGUAGE, slow=False)
                     tts.save(filename)
@@ -657,7 +659,7 @@ class TalkingGame:
             self.Sound_NoHear = generate_speech_sound("我没听到你说话。")
             self.Sound_Skipped = generate_speech_sound("跳过了！")
         elif DEFAULT_LANGUAGE == "ja":
-            self.Sound_Welcome = generate_speech_sound("小さなスピーチゲームへようこそ")
+            self.Sound_Welcome = generate_speech_sound("お話することの物語へ、ようこそ")
             self.Sound_Goodjob = generate_speech_sound("よくできました！続けますか？")
             self.Sound_PleaseSay = generate_speech_sound("言ってください：")
             self.Sound_NoGood = generate_speech_sound("ダメ！あなたは言いました：")
@@ -827,6 +829,7 @@ class TalkingGame:
                                 self.selected_word_list_key = key
                                 # self.word_list = self.config[self.selected_word_list_key]["items"]
                                 self.word_list = self.config.get(self.selected_word_list_key)["items"]
+                                # self.word_list = self.config.get(self.selected_word_list_key)["items"]
                                 self.word_order = self.config.get(self.selected_word_list_key)["order"]
                                 dropdown_active = False # Close dropdown after selection
                                 self.type_sound.play()
@@ -850,9 +853,12 @@ class TalkingGame:
         if item_order == "random":
             random.shuffle(item_list)
         item_index = 0
-        word = item_list[item_index]
+        word = item_list[item_index]["word"]
+        translate = item_list[item_index]["translate"]
+
         # matching_files = [file for file in os.listdir(CLIPART_PATH) if f"_{word.replace(".","").replace("!","").lower()}_" in file.lower()]
-        matching_files = get_matching_files(word)
+        # matching_files = get_matching_files(word)
+        matching_files = get_matching_files(translate)
         if matching_files:
             word_background = pygame.image.load(os.path.join(CLIPART_PATH, random.choice(matching_files)))
         else:
@@ -907,7 +913,7 @@ class TalkingGame:
                 self.screen.blit(msg_surface, msg_box_rect)
 
                 # Display word in styled box
-                word_surface = render_text_wrapped(word, self.game_font, TEXT_COLOR, box_width - 30) 
+                word_surface = render_text_wrapped(f"{word} ({translate})", self.game_font, TEXT_COLOR, box_width - 30) 
                 draw_styled_text_box(self.screen, word_box_rect, word_surface, PROMPT_BOX_COLOR)
                 
                 # Display Instructions
@@ -933,7 +939,8 @@ class TalkingGame:
                         item_index +=1
                         if item_index >= len(item_list):
                             item_index = 0
-                        word = item_list[item_index]
+                        word = item_list[item_index]["word"]
+                        translate = item_list[item_index].get("translate", "")
                         # Load new background image for the word
                         # matching_files = [file for file in os.listdir(CLIPART_PATH) if f"_{word.replace(".","").replace("!","").lower()}_" in file.lower()]
                         matching_files = get_matching_files(word)
@@ -956,7 +963,7 @@ class TalkingGame:
                         new_word_sound = self.sounds[word]
                     else:
                         print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Sound for word '{word}' not found, generating...")
-                        new_word_sound = generate_speech_sound(word, lang=DEFAULT_LANGUAGE)
+                        new_word_sound = generate_speech_sound(word)
 
                     new_word_prompt = merge_sounds(self.Sound_PleaseSay, new_word_sound)
                     while pygame.mixer.get_busy():
@@ -1073,7 +1080,9 @@ class TalkingGame:
                             item_index +=1
                             if item_index >= len(item_list):
                                 item_index = 0
-                            word = item_list[item_index]
+                            word = item_list[item_index]["word"]
+                            translate = item_list[item_index].get("translate", "")
+                            # Load new background image for the word]
                             # matching_files = [file for file in os.listdir(CLIPART_PATH) if f"_{word.replace(".","").replace("!","").lower()}_" in file.lower()]
                             matching_files = get_matching_files(word)
                             if matching_files:

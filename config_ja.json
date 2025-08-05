@@ -2,91 +2,91 @@
   "word_list_mastered": {
     "order": "random",
     "items": [
-      "バナナ", "キウイ", "コーヒー", "クッキー", "ピザ", "パスタ", "トマト", "ジャガイモ", "ケチャップ", "学校", "スーパー", "キッチン", "ママ", "パパ", "先生", "紙", "開ける", "うれしい", "ごめんね"
+      {"word": "バナナ", "translate": "banana"}, {"word": "キウイ", "translate": "kiwi"}, {"word": "コーヒー", "translate": "coffee"}, {"word": "クッキー", "translate": "cookie"}, {"word": "ピザ", "translate": "pizza"}, {"word": "パスタ", "translate": "pasta"}, {"word": "トマト", "translate": "tomato"}, {"word": "ジャガイモ", "translate": "potato"}, {"word": "ケチャップ", "translate": "ketchup"}, {"word": "学校", "translate": "school"}, {"word": "スーパー", "translate": "supermarket"}, {"word": "キッチン", "translate": "kitchen"}, {"word": "ママ", "translate": "mom"}, {"word": "パパ", "translate": "dad"}, {"word": "先生", "translate": "teacher"}, {"word": "紙", "translate": "paper"}, {"word": "開ける", "translate": "to open"}, {"word": "うれしい", "translate": "happy"}, {"word": "ごめんね", "translate": "sorry"}
     ]
   },
   "word_list_foods": {
     "order": "random",
     "items": [
-      "りんご", "バナナ", "オレンジ", "ぶどう", "スイカ", "いちご", "パイナップル", "キウイ", "マンゴー", "ブルーベリー",
-      "ごはん", "めん", "パン", "卵", "牛乳", "水", "ジュース", "コーヒー", "お茶", "ソーダ", "チキン", "牛肉", "豚肉",
-      "魚", "野菜", "果物", "おやつ", "キャンディー", "クッキー", "ケーキ", "アイスクリーム", "チョコレート", "ピザ", "チーズバーガー",
-      "ポテト", "ホットドッグ", "サンドイッチ", "サラダ", "スープ", "パスタ", "ステーキ", "スペアリブ", "ペパロニ", "チーズ", "トマト",
-      "レタス", "タマネギ", "ピーマン", "塩", "砂糖", "バター", "油", "しょうゆ", "ケチャップ", "ホットソース", "クリスピーチキン"
+      {"word": "りんご", "translate": "apple"}, {"word": "バナナ", "translate": "banana"}, {"word": "オレンジ", "translate": "orange"}, {"word": "ぶどう", "translate": "grape"}, {"word": "スイカ", "translate": "watermelon"}, {"word": "いちご", "translate": "strawberry"}, {"word": "パイナップル", "translate": "pineapple"}, {"word": "キウイ", "translate": "kiwi"}, {"word": "マンゴー", "translate": "mango"}, {"word": "ブルーベリー", "translate": "blueberry"},
+      {"word": "ごはん", "translate": "cooked rice/meal"}, {"word": "めん", "translate": "noodles"}, {"word": "パン", "translate": "bread"}, {"word": "卵", "translate": "egg"}, {"word": "牛乳", "translate": "milk"}, {"word": "水", "translate": "water"}, {"word": "ジュース", "translate": "juice"}, {"word": "コーヒー", "translate": "coffee"}, {"word": "お茶", "translate": "tea"}, {"word": "ソーダ", "translate": "soda"}, {"word": "チキン", "translate": "chicken"}, {"word": "牛肉", "translate": "beef"}, {"word": "豚肉", "translate": "pork"},
+      {"word": "魚", "translate": "fish"}, {"word": "野菜", "translate": "vegetable"}, {"word": "果物", "translate": "fruit"}, {"word": "おやつ", "translate": "snack"}, {"word": "キャンディー", "translate": "candy"}, {"word": "クッキー", "translate": "cookie"}, {"word": "ケーキ", "translate": "cake"}, {"word": "アイスクリーム", "translate": "ice cream"}, {"word": "チョコレート", "translate": "chocolate"}, {"word": "ピザ", "translate": "pizza"}, {"word": "チーズバーガー", "translate": "cheeseburger"},
+      {"word": "ポテト", "translate": "potato"}, {"word": "ホットドッグ", "translate": "hot dog"}, {"word": "サンドイッチ", "translate": "sandwich"}, {"word": "サラダ", "translate": "salad"}, {"word": "スープ", "translate": "soup"}, {"word": "パスタ", "translate": "pasta"}, {"word": "ステーキ", "translate": "steak"}, {"word": "スペアリブ", "translate": "spare ribs"}, {"word": "ペパロニ", "translate": "pepperoni"}, {"word": "チーズ", "translate": "cheese"}, {"word": "トマト", "translate": "tomato"},
+      {"word": "レタス", "translate": "lettuce"}, {"word": "タマネギ", "translate": "onion"}, {"word": "ピーマン", "translate": "bell pepper"}, {"word": "塩", "translate": "salt"}, {"word": "砂糖", "translate": "sugar"}, {"word": "バター", "translate": "butter"}, {"word": "油", "translate": "oil"}, {"word": "しょうゆ", "translate": "soy sauce"}, {"word": "ケチャップ", "translate": "ketchup"}, {"word": "ホットソース", "translate": "hot sauce"}, {"word": "クリスピーチキン", "translate": "crispy chicken"}
     ]
   },
   "word_list_things": {
     "order": "random",
     "items": [
-      "車", "バス", "電車", "自転車", "飛行機", "木", "花", "草", "空", "雲", "太陽", "月", "星", "スプーン", "フォーク", "ナイフ", "皿", "ボウル", "コップ",
-      "グラス", "ナプキン", "ティッシュ", "歯ブラシ", "歯みがき", "せっけん", "タオル", "くし", "ブラシ", "はさみ", "ペン",
-      "えんぴつ", "消しゴム", "本", "ノート", "紙", "かばん", "箱", "ボール", "フライパン", "なべ", "ボトル", "アイパッド"
+      {"word": "車", "translate": "car"}, {"word": "バス", "translate": "bus"}, {"word": "電車", "translate": "train"}, {"word": "自転車", "translate": "bicycle"}, {"word": "飛行機", "translate": "airplane"}, {"word": "木", "translate": "tree"}, {"word": "花", "translate": "flower"}, {"word": "草", "translate": "grass"}, {"word": "空", "translate": "sky"}, {"word": "雲", "translate": "cloud"}, {"word": "太陽", "translate": "sun"}, {"word": "月", "translate": "moon"}, {"word": "星", "translate": "star"}, {"word": "スプーン", "translate": "spoon"}, {"word": "フォーク", "translate": "fork"}, {"word": "ナイフ", "translate": "knife"}, {"word": "皿", "translate": "plate"}, {"word": "ボウル", "translate": "bowl"}, {"word": "コップ", "translate": "cup"},
+      {"word": "グラス", "translate": "glass"}, {"word": "ナプキン", "translate": "napkin"}, {"word": "ティッシュ", "translate": "tissue"}, {"word": "歯ブラシ", "translate": "toothbrush"}, {"word": "歯みがき", "translate": "toothpaste"}, {"word": "せっけん", "translate": "soap"}, {"word": "タオル", "translate": "towel"}, {"word": "くし", "translate": "comb"}, {"word": "ブラシ", "translate": "brush"}, {"word": "はさみ", "translate": "scissors"}, {"word": "ペン", "translate": "pen"},
+      {"word": "えんぴつ", "translate": "pencil"}, {"word": "消しゴム", "translate": "eraser"}, {"word": "本", "translate": "book"}, {"word": "ノート", "translate": "notebook"}, {"word": "紙", "translate": "paper"}, {"word": "かばん", "translate": "bag"}, {"word": "箱", "translate": "box"}, {"word": "ボール", "translate": "ball"}, {"word": "フライパン", "translate": "frying pan"}, {"word": "なべ", "translate": "pot"}, {"word": "ボトル", "translate": "bottle"}, {"word": "アイパッド", "translate": "iPad"}
     ]
   },
   "word_list_places": {
     "order": "random",
     "items": [
-      "学校", "おうち", "公園", "スーパー", "庭", "２階", "１階", "地下", "トイレ", "キッチン", "ホテル", "エレベーター"
+      {"word": "学校", "translate": "school"}, {"word": "おうち", "translate": "home"}, {"word": "公園", "translate": "park"}, {"word": "スーパー", "translate": "supermarket"}, {"word": "庭", "translate": "garden"}, {"word": "２階", "translate": "second floor"}, {"word": "１階", "translate": "first floor"}, {"word": "地下", "translate": "basement"}, {"word": "トイレ", "translate": "toilet"}, {"word": "キッチン", "translate": "kitchen"}, {"word": "ホテル", "translate": "hotel"}, {"word": "エレベーター", "translate": "elevator"}
     ]
   },
   "word_list_people": {
     "order": "random",
     "items": [
-      "パパ", "ママ", "お兄ちゃん", "お姉ちゃん", "先生", "おばあちゃん", "おじいちゃん", "おじさん", "おばさん", "お医者さん", "歯医者さん", "看護師さん", "警察官", "いとこ", "クラスメイト", "近所の人", "郵便屋さん", "ウェイター", "ウェイトレス"
+      {"word": "パパ", "translate": "dad"}, {"word": "ママ", "translate": "mom"}, {"word": "お兄ちゃん", "translate": "older brother"}, {"word": "お姉ちゃん", "translate": "older sister"}, {"word": "先生", "translate": "teacher"}, {"word": "おばあちゃん", "translate": "grandma"}, {"word": "おじいちゃん", "translate": "grandpa"}, {"word": "おじさん", "translate": "uncle"}, {"word": "おばさん", "translate": "aunt"}, {"word": "お医者さん", "translate": "doctor"}, {"word": "歯医者さん", "translate": "dentist"}, {"word": "看護師さん", "translate": "nurse"}, {"word": "警察官", "translate": "police officer"}, {"word": "いとこ", "translate": "cousin"}, {"word": "クラスメイト", "translate": "classmate"}, {"word": "近所の人", "translate": "neighbor"}, {"word": "郵便屋さん", "translate": "mail carrier"}, {"word": "ウェイター", "translate": "waiter"}, {"word": "ウェイトレス", "translate": "waitress"}
     ]
   },
   "word_list_actions": {
     "order": "random",
     "items": [
-      "歩く", "走る", "ジャンプする", "泳ぐ", "ダンスする", "歌う", "絵を描く", "色をぬる", "読む", "書く", "遊ぶ", "見る", "聞く", "食べる", "飲む", "寝る", "起きる", "行く", "来る", "座る", "立つ", "開ける", "閉める", "押す", "引く",
-      "そうじする", "洗う", "料理する", "切る", "買う", "払う", "手伝う", "運転する", "乗る", "シャワーする"
+      {"word": "歩く", "translate": "to walk"}, {"word": "走る", "translate": "to run"}, {"word": "ジャンプする", "translate": "to jump"}, {"word": "泳ぐ", "translate": "to swim"}, {"word": "ダンスする", "translate": "to dance"}, {"word": "歌う", "translate": "to sing"}, {"word": "絵を描く", "translate": "to draw"}, {"word": "色をぬる", "translate": "to color"}, {"word": "読む", "translate": "to read"}, {"word": "書く", "translate": "to write"}, {"word": "遊ぶ", "translate": "to play"}, {"word": "見る", "translate": "to see/watch"}, {"word": "聞く", "translate": "to listen/ask"}, {"word": "食べる", "translate": "to eat"}, {"word": "飲む", "translate": "to drink"}, {"word": "寝る", "translate": "to sleep"}, {"word": "起きる", "translate": "to wake up"}, {"word": "行く", "translate": "to go"}, {"word": "来る", "translate": "to come"}, {"word": "座る", "translate": "to sit"}, {"word": "立つ", "translate": "to stand"}, {"word": "開ける", "translate": "to open"}, {"word": "閉める", "translate": "to close"}, {"word": "押す", "translate": "to push"}, {"word": "引く", "translate": "to pull"},
+      {"word": "そうじする", "translate": "to clean"}, {"word": "洗う", "translate": "to wash"}, {"word": "料理する", "translate": "to cook"}, {"word": "切る", "translate": "to cut"}, {"word": "買う", "translate": "to buy"}, {"word": "払う", "translate": "to pay"}, {"word": "手伝う", "translate": "to help"}, {"word": "運転する", "translate": "to drive"}, {"word": "乗る", "translate": "to ride"}, {"word": "シャワーする", "translate": "to shower"}
     ]
   },
   "word_list_animals": {
     "order": "random",
     "items": [
-      "ねこ", "いぬ",
-      "うま", "うし", "ひつじ", "ぞう", "ライオン", "トラ", "キリン", "ワニ", "うさぎ", "かめ", "さる",
-      "とり", "へび", "ねずみ", "サメ"
+      {"word": "ねこ", "translate": "cat"}, {"word": "いぬ", "translate": "dog"},
+      {"word": "うま", "translate": "horse"}, {"word": "うし", "translate": "cow"}, {"word": "ひつじ", "translate": "sheep"}, {"word": "ぞう", "translate": "elephant"}, {"word": "ライオン", "translate": "lion"}, {"word": "トラ", "translate": "tiger"}, {"word": "キリン", "translate": "giraffe"}, {"word": "ワニ", "translate": "alligator/crocodile"}, {"word": "うさぎ", "translate": "rabbit"}, {"word": "かめ", "translate": "turtle"}, {"word": "さる", "translate": "monkey"},
+      {"word": "とり", "translate": "bird"}, {"word": "へび", "translate": "snake"}, {"word": "ねずみ", "translate": "mouse"}, {"word": "サメ", "translate": "shark"}
     ]
   },
   "word_list_feelings": {
     "order": "random",
     "items": [
-      "おねがい", "ごめんね", "はい", "いいえ", "いいね", "だめ", "うれしい", "かなしい", "おこってる", "つかれた", "おなかすいた", "のどかわいた",
-      "あつい", "さむい", "大きい", "小さい", "長い", "短い", "高い", "はやい", "おそい", "かゆい", "のどかわいた"
+      {"word": "おねがい", "translate": "please"}, {"word": "ごめんね", "translate": "sorry"}, {"word": "はい", "translate": "yes"}, {"word": "いいえ", "translate": "no"}, {"word": "いいね", "translate": "good/nice"}, {"word": "だめ", "translate": "no good/bad"}, {"word": "うれしい", "translate": "happy"}, {"word": "かなしい", "translate": "sad"}, {"word": "おこってる", "translate": "angry"}, {"word": "つかれた", "translate": "tired"}, {"word": "おなかすいた", "translate": "hungry"}, {"word": "のどかわいた", "translate": "thirsty"},
+      {"word": "あつい", "translate": "hot"}, {"word": "さむい", "translate": "cold"}, {"word": "大きい", "translate": "big"}, {"word": "小さい", "translate": "small"}, {"word": "長い", "translate": "long"}, {"word": "短い", "translate": "short"}, {"word": "高い", "translate": "tall/expensive"}, {"word": "はやい", "translate": "fast/early"}, {"word": "おそい", "translate": "slow/late"}, {"word": "かゆい", "translate": "itchy"}, {"word": "のどかわいた", "translate": "thirsty"}
     ]
   },
   "word_list_numbers": {
     "order": "random",
     "items": [
-      "１", "２", "３", "４", "５", "６", "７", "８", "９", "１０", "１１", "１２", "１３", "１４", "１５", "１６", "１７", "１８", "１９", "２０", "３０", "４０", "５０", "６０", "７０", "８０", "９０", "１００"
+      {"word": "１", "translate": "one"}, {"word": "２", "translate": "two"}, {"word": "３", "translate": "three"}, {"word": "４", "translate": "four"}, {"word": "５", "translate": "five"}, {"word": "６", "translate": "six"}, {"word": "７", "translate": "seven"}, {"word": "８", "translate": "eight"}, {"word": "９", "translate": "nine"}, {"word": "１０", "translate": "ten"}, {"word": "１１", "translate": "eleven"}, {"word": "１２", "translate": "twelve"}, {"word": "１３", "translate": "thirteen"}, {"word": "１４", "translate": "fourteen"}, {"word": "１５", "translate": "fifteen"}, {"word": "１６", "translate": "sixteen"}, {"word": "１７", "translate": "seventeen"}, {"word": "１８", "translate": "eighteen"}, {"word": "１９", "translate": "nineteen"}, {"word": "２０", "translate": "twenty"}, {"word": "３０", "translate": "thirty"}, {"word": "４０", "translate": "forty"}, {"word": "５０", "translate": "fifty"}, {"word": "６０", "translate": "sixty"}, {"word": "７０", "translate": "seventy"}, {"word": "８０", "translate": "eighty"}, {"word": "９０", "translate": "ninety"}, {"word": "１００", "translate": "one hundred"}
     ]
   },
   "word_list_time": {
     "order": "random",
     "items": [
-      "月曜日", "火曜日", "水曜日", "木曜日", "金曜日", "土曜日", "日曜日", "平日", "週末",
-      "１月", "２月", "３月", "４月", "５月", "６月", "７月", "８月", "９月", "１０月", "１１月", "１２月",
-      "今日", "明日", "昨日", "朝", "昼", "夕方", "夜", "週", "月", "年",
-      "今", "あとで", "すぐ", "早く", "遅く", "〜時", "一番目", "二番目", "三番目", "そのあと", "後で", "前に", "次", "最後"
+      {"word": "月曜日", "translate": "Monday"}, {"word": "火曜日", "translate": "Tuesday"}, {"word": "水曜日", "translate": "Wednesday"}, {"word": "木曜日", "translate": "Thursday"}, {"word": "金曜日", "translate": "Friday"}, {"word": "土曜日", "translate": "Saturday"}, {"word": "日曜日", "translate": "Sunday"}, {"word": "平日", "translate": "weekday"}, {"word": "週末", "translate": "weekend"},
+      {"word": "１月", "translate": "January"}, {"word": "２月", "translate": "February"}, {"word": "３月", "translate": "March"}, {"word": "４月", "translate": "April"}, {"word": "５月", "translate": "May"}, {"word": "６月", "translate": "June"}, {"word": "７月", "translate": "July"}, {"word": "８月", "translate": "August"}, {"word": "９月", "translate": "September"}, {"word": "１０月", "translate": "October"}, {"word": "１１月", "translate": "November"}, {"word": "１２月", "translate": "December"},
+      {"word": "今日", "translate": "today"}, {"word": "明日", "translate": "tomorrow"}, {"word": "昨日", "translate": "yesterday"}, {"word": "朝", "translate": "morning"}, {"word": "昼", "translate": "daytime/noon"}, {"word": "夕方", "translate": "evening"}, {"word": "夜", "translate": "night"}, {"word": "週", "translate": "week"}, {"word": "月", "translate": "month"}, {"word": "年", "translate": "year"},
+      {"word": "今", "translate": "now"}, {"word": "あとで", "translate": "later"}, {"word": "すぐ", "translate": "soon/immediately"}, {"word": "早く", "translate": "early/fast"}, {"word": "遅く", "translate": "late/slow"}, {"word": "〜時", "translate": "o'clock"}, {"word": "一番目", "translate": "first"}, {"word": "二番目", "translate": "second"}, {"word": "三番目", "translate": "third"}, {"word": "そのあと", "translate": "after that"}, {"word": "後で", "translate": "later"}, {"word": "前に", "translate": "before"}, {"word": "次", "translate": "next"}, {"word": "最後", "translate": "last"}
     ]
   },
   "phrase_list": {
     "order": "random",
     "items": [
-      "ちゃんと座ってね", "まっすぐ座ってね", "ストップして待って", "車を待って", "信号を待って", "止まって見て", "見てから渡って",
-      "道を渡る", "立ってね", "座ってね", "つけてね", "消してね", "片付けてね", "着てね", "脱いでね", "起きる時間だよ",
-      "寝る時間だよ", "ご飯待ってね", "晩ごはん食べよう", "スケート行こう", "テニスしよう", "バスケしよう", "自転車乗ろう",
-      "車に乗ろう", "スーパーに行こう", "公園に行こう", "トイレ行きたい", "うんち出そう", "おなかすいた", "ねむくなってきた", "またあとでね",
-      "また明日ね", "バイバイ", "おはよう", "おやすみ", "ありがとう", "はい、お願いします", "いいえ、いりません", "ごめんね", "くしゃみ出たね",
-      "髪をとかしてね", "歯みがいてね"
+      {"word": "ちゃんと座ってね", "translate": "Sit properly"}, {"word": "まっすぐ座ってね", "translate": "Sit up straight"}, {"word": "ストップして待って", "translate": "Stop and wait"}, {"word": "車を待って", "translate": "Wait for the car"}, {"word": "信号を待って", "translate": "Wait for the traffic light"}, {"word": "止まって見て", "translate": "Stop and look"}, {"word": "見てから渡って", "translate": "Look before you cross"},
+      {"word": "道を渡る", "translate": "Cross the road"}, {"word": "立ってね", "translate": "Stand up"}, {"word": "座ってね", "translate": "Sit down"}, {"word": "つけてね", "translate": "Turn on"}, {"word": "消してね", "translate": "Turn off"}, {"word": "片付けてね", "translate": "Clean up/Put away"}, {"word": "着てね", "translate": "Put on clothes"}, {"word": "脱いでね", "translate": "Take off clothes"}, {"word": "起きる時間だよ", "translate": "It's time to wake up"},
+      {"word": "寝る時間だよ", "translate": "It's time to sleep"}, {"word": "ご飯待ってね", "translate": "Wait for food"}, {"word": "晩ごはん食べよう", "translate": "Let's eat dinner"}, {"word": "スケート行こう", "translate": "Let's go skating"}, {"word": "テニスしよう", "translate": "Let's play tennis"}, {"word": "バスケしよう", "translate": "Let's play basketball"}, {"word": "自転車乗ろう", "translate": "Let's ride a bike"},
+      {"word": "車に乗ろう", "translate": "Let's get in the car"}, {"word": "スーパーに行こう", "translate": "Let's go to the supermarket"}, {"word": "公園に行こう", "translate": "Let's go to the park"}, {"word": "トイレ行きたい", "translate": "I want to go to the toilet"}, {"word": "うんち出そう", "translate": "I need to poop"}, {"word": "おなかすいた", "translate": "I'm hungry"}, {"word": "ねむくなってきた", "translate": "I'm getting sleepy"}, {"word": "またあとでね", "translate": "See you later"},
+      {"word": "また明日ね", "translate": "See you tomorrow"}, {"word": "バイバイ", "translate": "Bye-bye"}, {"word": "おはよう", "translate": "Good morning"}, {"word": "おやすみ", "translate": "Good night"}, {"word": "ありがとう", "translate": "Thank you"}, {"word": "はい、お願いします", "translate": "Yes, please"}, {"word": "いいえ、いりません", "translate": "No, I don't need it"}, {"word": "ごめんね", "translate": "Sorry"}, {"word": "くしゃみ出たね", "translate": "You sneezed"},
+      {"word": "髪をとかしてね", "translate": "Comb your hair"}, {"word": "歯みがいてね", "translate": "Brush your teeth"}
     ]
   },
   "word_list_test": {
     "order": "random",
     "items": [
-      "自転車乗ろう", "スーパーに行こう", "公園に行こう", "髪をとかしてね", "歯みがいてね"
+      {"word": "自転車乗ろう", "translate": "Let's ride a bike"}, {"word": "スーパーに行こう", "translate": "Let's go to the supermarket"}, {"word": "公園に行こう", "translate": "Let's go to the park"}, {"word": "髪をとかしてね", "translate": "Comb your hair"}, {"word": "歯みがいてね", "translate": "Brush your teeth"}
     ]
   }
 }
