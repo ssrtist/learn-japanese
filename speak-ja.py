@@ -20,7 +20,7 @@ import sys
 
 
 # --- Global Constants and Configuration ---
-GENERATE_SFX = False  # Whether to generate sound files for words
+GENERATE_SFX = True  # Whether to generate sound files for words
 DEFAULT_LANGUAGE = "ja" # Default language for speech recognition and TTS
 CONFIG_FILE_PATH = "config_ja.json"
 SOUND_TYPE_FILE = "assets/sounds/mouse_click.wav"
@@ -943,7 +943,7 @@ class TalkingGame:
                         translate = item_list[item_index].get("translate", "")
                         # Load new background image for the word
                         # matching_files = [file for file in os.listdir(CLIPART_PATH) if f"_{word.replace(".","").replace("!","").lower()}_" in file.lower()]
-                        matching_files = get_matching_files(word)
+                        matching_files = get_matching_files(translate)
                         if matching_files:
                             word_background = pygame.image.load(os.path.join(CLIPART_PATH, random.choice(matching_files)))
                         else:
@@ -1084,7 +1084,7 @@ class TalkingGame:
                             translate = item_list[item_index].get("translate", "")
                             # Load new background image for the word]
                             # matching_files = [file for file in os.listdir(CLIPART_PATH) if f"_{word.replace(".","").replace("!","").lower()}_" in file.lower()]
-                            matching_files = get_matching_files(word)
+                            matching_files = get_matching_files(translate)
                             if matching_files:
                                 word_background = pygame.image.load(os.path.join(CLIPART_PATH, random.choice(matching_files)))
                             else:
