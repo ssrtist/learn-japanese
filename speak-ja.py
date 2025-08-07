@@ -18,6 +18,14 @@ import sounddevice as sd
 from datetime import datetime
 import sys
 
+# Japanese text processing
+import pykakasi
+kks_JH = pykakasi.kakasi()
+kks_JH.setMode("J", "H")  # Kanji to Hiragana
+JH_conv = kks_JH.getConverter()
+kks_KH = pykakasi.kakasi()
+kks_KH.setMode("K", "H")  # Kanji to Hiragana
+KH_conv = kks_KH.getConverter()
 
 # --- Global Constants and Configuration ---
 GENERATE_SFX = True  # Whether to generate sound files for words
@@ -1001,19 +1009,20 @@ class TalkingGame:
 
             if RECOGNIZER_STATUS == "COMPLETE":
                 print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Recognized text: {RECOGNIZED_TEXT}")
-                # if RECOGNIZED_TEXT.upper() == word.upper():
-                if word.upper() in RECOGNIZED_TEXT.upper():
-                    if  f"SAY {word.upper()}" not in RECOGNIZED_TEXT.upper():
-                        print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Word matched!")
-                        completed_words += 1
-                        word_complete = True
-                        # play successful answer prompt
-                        recorded_sound = pygame.mixer.Sound(file=io.BytesIO(RECOGNIZED_DATA.get_wav_data()))
-                        combined_sound = merge_sounds(self.Sound_Good, recorded_sound)
-                        combined_sound.play()
-                        RECOGNIZED_TEXT = ""
-                        RECOGNIZED_DATA = None
-                        RECOGNIZER_STATUS = "READY"
+                h_word = JH_conv.do(KH_conv.do(word))
+                h_text = JH_conv.do(KH_conv.do(RECOGNIZED_TEXT))
+                print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Checking if recognized word {h_text} matches target word {h_word}...")
+                if h_word in h_text:
+                    print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Word matched!")
+                    completed_words += 1
+                    word_complete = True
+                    # play successful answer prompt
+                    recorded_sound = pygame.mixer.Sound(file=io.BytesIO(RECOGNIZED_DATA.get_wav_data()))
+                    combined_sound = merge_sounds(self.Sound_Good, recorded_sound)
+                    combined_sound.play()
+                    RECOGNIZED_TEXT = ""
+                    RECOGNIZED_DATA = None
+                    RECOGNIZER_STATUS = "READY"
                 else:
                     print(f"[{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}] Word did not match.")
                     # play no good audio prompt
