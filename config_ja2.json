@@ -1,0 +1,83 @@
+{
+  "phrase_list_greetings": {
+    "order": "random",
+    "items": [
+      {"word": "こんにちは", "translate": "Hello"},
+      {"word": "やっほー", "translate": "Hi (casual)"},
+      {"word": "おはようございます", "translate": "Good morning"},
+      {"word": "おはよう", "translate": "Morning (casual)"},
+      {"word": "こんばんは", "translate": "Good evening"},
+      {"word": "げんき？", "translate": "How are you?"},
+      {"word": "げんきです、ありがとう", "translate": "I’m fine, thank you"},
+      {"word": "おなまえは？", "translate": "What’s your name?"},
+      {"word": "___です", "translate": "My name is ___"},
+      {"word": "はじめまして。よろしくおねがいします", "translate": "Nice to meet you"},
+      {"word": "またね", "translate": "See you later"},
+      {"word": "じゃあね", "translate": "See you (casual)"}
+    ]
+  },
+  "phrase_list_home": {
+    "order": "random",
+    "items": [
+      {"word": "おなかすいた", "translate": "I’m hungry"},
+      {"word": "のどかわいた", "translate": "I’m thirsty"},
+      {"word": "つかれた〜", "translate": "I’m tired"},
+      {"word": "もうねるね", "translate": "I’m going to sleep"},
+      {"word": "しゃわーあびてくる", "translate": "I need to take a shower"},
+      {"word": "いただきます", "translate": "Let’s eat"},
+      {"word": "たべよう", "translate": "Let’s eat (casual)"},
+      {"word": "きょうのばんごはんなに？", "translate": "What’s for dinner?"},
+      {"word": "てつだってくれる？", "translate": "Can you help me?"},
+      {"word": "でんきけしてくれる？", "translate": "Turn off the lights, please"},
+      {"word": "けいたいどこだっけ？", "translate": "Where is my phone?"}
+    ]
+  },
+  "phrase_list_shopping": {
+    "order": "random",
+    "items": [
+      {"word": "これ、いくらですか？", "translate": "How much is this?"},
+      {"word": "みてるだけです", "translate": "I’m just looking"},
+      {"word": "これにします", "translate": "I’ll take this"},
+      {"word": "___ありますか？", "translate": "Do you have ___?"},
+      {"word": "ふくろください", "translate": "I need a bag"},
+      {"word": "かーどつかえますか？", "translate": "Can I pay by card?"},
+      {"word": "ありがとう", "translate": "Thank you"},
+      {"word": "ありがとうございます", "translate": "Thank you (polite)"},
+      {"word": "すみません", "translate": "Excuse me"},
+      {"word": "といれどこですか？", "translate": "Where is the bathroom?"},
+      {"word": "わかりません", "translate": "I don’t understand"},
+      {"word": "ちょっとむずかしいです", "translate": "It’s a bit difficult"}
+    ]
+  },
+  "phrase_list_out_and_about": {
+    "order": "random",
+    "items": [
+      {"word": "いこう！", "translate": "Let’s go!"},
+      {"word": "ちょっとまって", "translate": "Wait a moment"},
+      {"word": "みちにまよっちゃった", "translate": "I’m lost"},
+      {"word": "___はどこですか？", "translate": "Where is ___?"},
+      {"word": "おしえてもらえますか？", "translate": "Can you show me?"},
+      {"word": "___をさがしています", "translate": "I’m looking for ___"},
+      {"word": "とおいですか？", "translate": "Is it far?"},
+      {"word": "いまなんじ？", "translate": "What time is it?"},
+      {"word": "おくれちゃった", "translate": "I’m late"},
+      {"word": "___であおう", "translate": "Let’s meet at ___"}
+    ]
+  },
+  "phrase_list_tech": {
+    "order": "random",
+    "items": [
+      {"word": "きこえる？", "translate": "Can you hear me?"},
+      {"word": "またあとででんわするね", "translate": "I’ll call you later"},
+      {"word": "めっせーじおくって", "translate": "Send me a message"},
+      {"word": "でんわばんごうおしえて", "translate": "What’s your number?"},
+      {"word": "ぱすわーどわすれちゃった", "translate": "I forgot my password"},
+      {"word": "じゅうでんしなきゃ", "translate": "I need to charge my phone"},
+      {"word": "わいふぁいつながらない", "translate": "The Wi-Fi isn’t working"},
+      {"word": "びでおつうわしよう", "translate": "Let’s video chat"},
+      {"word": "めーるみてみて", "translate": "Check your email"},
+      {"word": "らいんするね", "translate": "I’ll text you"},
+      {"word": "めっせーじおくるね", "translate": "I’ll send a message"}
+    ]
+  }
+}

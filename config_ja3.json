@@ -1,0 +1,89 @@
+{
+  "word_list_greetings": {
+    "order": "random",
+    "items": [
+      {"word": "こんにちは", "translate": "Hello"},
+      {"word": "おはようございます", "translate": "Good morning"},
+      {"word": "こんばんは", "translate": "Good evening"},
+      {"word": "さようなら", "translate": "Goodbye"},
+      {"word": "おやすみ", "translate": "Good night"},
+      {"word": "すみません", "translate": "Excuse me"},
+      {"word": "ごめんなさい", "translate": "I'm sorry"},
+      {"word": "ありがとう", "translate": "Thank you"},
+      {"word": "ありがとうございます", "translate": "Thank you very much"},
+      {"word": "どういたしまして", "translate": "You're welcome"},
+      {"word": "はじめまして", "translate": "Nice to meet you"}
+    ]
+  },
+  "word_list_questions": {
+    "order": "random",
+    "items": [
+      {"word": "これはなんですか", "translate": "What is this?"},
+      {"word": "いくらですか", "translate": "How much is it?"},
+      {"word": "〜はどこですか", "translate": "Where is it?"},
+      {"word": "だれですか", "translate": "Who is it?"},
+      {"word": "なんじですか", "translate": "What time is it?"},
+      {"word": "おげんきですか", "translate": "How are you?"},
+      {"word": "はい", "translate": "Yes"},
+      {"word": "いいえ", "translate": "No"},
+      {"word": "げんきです", "translate": "I'm fine"}
+    ]
+  },
+  "word_list_numbers": {
+    "order": "random",
+    "items": [
+      {"word": "いち", "translate": "one"},
+      {"word": "に", "translate": "two"},
+      {"word": "さん", "translate": "three"},
+      {"word": "よん", "translate": "four"},
+      {"word": "ご", "translate": "five"},
+      {"word": "ろく", "translate": "six"},
+      {"word": "なな", "translate": "seven"},
+      {"word": "はち", "translate": "eight"},
+      {"word": "きゅう", "translate": "nine"},
+      {"word": "じゅう", "translate": "ten"}
+    ]
+  },
+  "word_list_adjectives": {
+    "order": "random",
+    "items": [
+      {"word": "おおきい", "translate": "big"},
+      {"word": "ちいさい", "translate": "small"},
+      {"word": "たかい", "translate": "expensive"},
+      {"word": "やすい", "translate": "cheap"},
+      {"word": "おいしい", "translate": "yummy"},
+      {"word": "まずい", "translate": "yucky"},
+      {"word": "いい", "translate": "good"},
+      {"word": "わるい", "translate": "bad"},
+      {"word": "きれい", "translate": "clean"},
+      {"word": "きたない", "translate": "dirty"}
+    ]
+  },
+  "word_list_verbs": {
+    "order": "random",
+    "items": [
+      {"word": "たべます", "translate": "eat"},
+      {"word": "のみます", "translate": "drink"},
+      {"word": "いきます", "translate": "go"},
+      {"word": "きます", "translate": "come"},
+      {"word": "みます", "translate": "look"},
+      {"word": "ききます", "translate": "listen"},
+      {"word": "かいます", "translate": "buy"},
+      {"word": "よみます", "translate": "read"},
+      {"word": "かきます", "translate": "write"},
+      {"word": "はなします", "translate": "talk"}
+    ]
+  },
+  "word_list_people": {
+    "order": "random",
+    "items": [
+      {"word": "わたし", "translate": "I"},
+      {"word": "あなた", "translate": "you"},
+      {"word": "かれ", "translate": "he"},
+      {"word": "かのじょ", "translate": "she"},
+      {"word": "せんせい", "translate": "teacher"},
+      {"word": "がくせい", "translate": "student"},
+      {"word": "ともだち", "translate": "friend"}
+    ]
+  }
+}
